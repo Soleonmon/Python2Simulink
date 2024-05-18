@@ -84,6 +84,22 @@ self.eng.eval('out.output'), self.eng.eval('out.tout')
 
 learn how to set parameters of blocks [check here](https://www.mathworks.com/help/simulink/slref/set_param.html)
 
+-update on 18/5/24
+for my case i am trying tracking example
+
+1) go to the tracking file
+2) Open tracking.py with python 3.11 (or 3.9 and 3.10) version interpreter ( i am using pycharm IDE)
+3) You should check the python version first before proceed, very important.
+4) run your command prompt as administrator.
+5) cd "C:\Program Files\MATLAB\R2023a\extern\engines\python" (refer on your own)
+6) python setup.py install
+7) one of the file will contain "matlab" file, copy this to the downloaded file\tracking.
+8) go to terminal
+9) pip install matplotlib
+10) python -m pip install matplotlib
+11) run your python script.
+12) Done.
+
 ## Reference:
 -------
 
